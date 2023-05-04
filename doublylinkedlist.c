@@ -36,6 +36,7 @@ int main()
 	headNode* headnode=NULL;
 
 	do{
+		Printstudent();
 		printf("----------------------------------------------------------------\n");
 		printf("                     Doubly Linked  List                        \n");
 		printf("----------------------------------------------------------------\n");
@@ -98,6 +99,13 @@ int main()
 	return 1;
 }
 
+
+void Printstudent()
+{
+	char *name = "Kim sieun";
+	char *id = "2021053007";
+	printf("----- [%s] [%s] -----\n", name, id);
+}
 
 // 리스트 실행 함수
 int initialize(headNode** h) {
